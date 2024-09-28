@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+#delete, #export {
+	position: absolute;
+	top:70px;
+	right:10px;
+	z-index:500;
+	background:white;
+	color:black;
+	padding:6px;
+	border-radius:4px;
+	font-family: 'Helvetica Neue';
+	cursor: pointer;
+	font-size:14px;
+	text-decoration:none;
+	visibility: hidden;
+	border: 2px solid rgba(0,0,0,0.2);
+	background-clip: padding-box;
+}
+#export {
+	top: 115px;
+}
+.icon {
+	max-width: 60%;
+	max-height: 60%;
+	margin: 4px;
+	margin-top: 6px;
+}
+#longInput, #latInput, #long, #lat, #okButton {
+	position: absolute;
+	top:12px;
+	left:60px;
+	z-index:500;
+	background:white;
+	color:black;
+	padding:6px;
+	font-family: 'Helvetica Neue';
+	cursor: pointer;
+	font-size:14px;
+	text-decoration:none;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border: 2px solid rgba(0,0,0,0.2);
+	background-clip: padding-box;
+}
+#longInput {
+	left: 150px;
+	width: 120px;
+}
+#lat {
+	left: 300px;
+}
+#latInput {
+	left: 380px;
+	width: 120px;
+}
+#okButton {
+	left: 530px;
+}
+#formLongLat {
+	visibility: hidden;
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "PAI_Sec_1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "nom_fr": "Garde Nationale", "nom_ar": "الحرس الوطني" }, "geometry": { "type": "Point", "coordinates": [ 10.235896173, 36.84134850 ] } },
+{ "type": "Feature", "properties": { "nom_fr": "Ministère de l'Intérieur", "nom_ar": "وزارة الداخلية" }, "geometry": { "type": "Point", "coordinates": [ 10.184821, 36.799594 ] } }
+]
+}
